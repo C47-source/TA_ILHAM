@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+/*utility*/
+.tombol{
+	background: rgb(230, 137, 0);
+	border:1px solid #fff;
+	border-radius: 50px;
+	font-size: 1rem;
+	padding: 10px 30px;
+	transition: all 1s;
+	width: 100px;
+}
+.typed-cursor {
+    opacity: 0 !important;
+}
+
+
+.halaman-utama{
+	background-color: #007aff;
+}
+/*header*/
+.navbar-nav{
+	font-family: 'Poppins',sans-serif;
+	font-size: 14px;
+}
+.navbar-nav a{
+	margin-right: 20px;
+	color: #fff !important;
+}
+.navbar-nav a:hover{
+	margin-right: 20px;
+	color: #FFFFFF !important;
+}
+/*hero*/
+.myhero{
+	text-align: center;
+	font-family: 'Popins',sans-serif;
+	color: #ffff;
+}
+.myhero h4{
+	font-size: 24px;
+	font-weight: bold;
+}
+.myhero p{
+	color:#fff;
+	font-size: 14px;
+	letter-spacing: 0.2px;
+}
+
+/*worspace*/
+.workspace{
+	font-family: 'Popins',sans-serif;
+	background-color: #ffff;
+}
+.workspace p{
+	color: #acacac;
+}
+.workspace h4{
+	font-size: 24px;
+	margin-top: -10px !important;
+	font-weight: bold;
+}
+.workspace .img{
+	opacity: 0 !important;
+}
+.workspace .text{
+	padding-left: 0 !important;
+	text-align: center;
+}
+
+/*exllence*/
+.exellence {
+	font-family: 'popins',sans-serif;
+	background-color: #ffff;
+}
+.exellence h4{
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+}
+.exellence p{
+	color: #acacac;
+	text-align: center;
+}
+p span{
+	font-weight: bold;
+	color: #212529;
+}
+.exellence .ikon{
+	text-align: center;
+}
+.ikon i{
+	font-size: 48px;
+	color: #00bfa6;
+}
+
+/*popular*/
+.popular .img{
+	width: 100%;
+	height: 200px;
+	border-radius: 5px;
+	background-color: #554AB2;
+	text-align: center;
+}
+.popular a{
+	text-decoration: none;
+	color: #fff;
+}
+.popular a:hover{
+	box-shadow: 0 4px 20px 0 rgba(0,0,0,0.25);
+	transition: 0.8s all;
+}
+.img img{
+	border-radius: 5px;
+}
+.label_kelas{
+	width: 100px;
+	font-family: 'Poppins',sans-serif;
+	text-align: center;
+}
+.label_kelas h6{
+	font-size: 14px;
+}
+.label_kelas .label_premium{
+	background-color: #FA7854;
+	border-radius: 5px;
+	padding-top: 5px;
+	position: relative;
+	padding-bottom: 0.2px;
+}
+.label_kelas .label_free{
+	background-color: #554AB2;
+	border-radius: 5px;
+	padding-top: 5px;
+	color: #ffff;
+	position: relative;
+	padding-bottom: 0.2px;
+}
+.judul_kelas h4{
+	color: #212529 !important;
+	text-align: left;
+	font-size: 18px !important;
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+}
+.judul_kelas p{
+	text-align: left;
+	font-size: 14px;
+}
+.mentor_kelas{
+	text-align: center;
+	color: #212529;
+}
+.mentor_kelas h4{
+	font-family: 'Poppins',sans-serif;
+	font-weight: 400;
+	font-size: 18px !important;
+}
+.mentor_kelas p{
+	font-weight: 400;
+	font-size: 14px;
+}
+
+/*footer*/
+.footer{
+	background-color: #ffff;
+	font-family: 'Poppins',sans-serif;
+	color: #acacac;
+}
+.footer p{
+	font-weight: 400;
+	margin: auto;
+}
+.footer a{
+	text-decoration: none;
+	color: #acacac;
+}
+.footer a:hover{
+	color: #bbbbbb;
+}
+.footer .copyright{
+	text-align: center;
+}
+
+/*reviews*/
+.review{
+	text-align: center;
+	background-color: #ffff;
+	font-family: 'Poppins',sans-serif;
+}
+.review p{
+	font-size: 14px;
+}
+.review .author{
+	text-align: center;
+}
+.author h4{
+	font-size: 18px !important;
+}
+/*deskop version*/
+@media (min-width: 992px) {
+.garis{
+	width: 2px;
+    height: 40px;
+    background: #E5E5E5;
+    margin-right: 20px;
+	}
+/*header*/
+.navbar-nav{
+	font-size: 18px;
+}
+/*my hero*/
+.myhero h4{
+	font-size: 32px;
+	}
+/*workspace*/
+.workspace .img{
+	opacity: 1 !important;
+}
+.workspace .text{
+	text-align: left;
+	padding-left: 80px !important;
+}
+.workspace h4{
+	font-size: 32px;
+	margin-top: 40px !important;
+}
+/* popular */
+
+/*exellence*/
+.exellence h4{
+	font-size: 32px;
+}
+}
